@@ -1,51 +1,58 @@
-.cont {
-  border: 5px solid paleturquoise;
-  border-radius: 10px;
-  margin-top: -35px;
-  margin-bottom: 0px;
-  background-color: gainsboro;
-  font-family: sans-serif;
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ol li {
-  list-style-type: none;
-  color: black;
-  font-weight: bold;
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.footer {
+
+body {
+  background: #c9ffbf;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffafbd, #c9ffbf);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Lato;
+  font-weight: 300;
   position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 30%;
-  background-color: black;
-  color: white;
-  text-align: center;
+  height: 100vh;
+  color: #555;
 }
-button {
-  background-color: rgb(96, 197, 197);
-  /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  margin-left: 48%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bolder;
+
+h3,
+p,
+li {
+  text-transform: uppercase;
 }
-#marks {
-  margin-left: 40%;
-  /* border: 3px solid blue; */
+
+.wrapper {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
-tt,
-code,
-kbd,
-samp {
-  font-family: sans-serif;
+
+.rules-panel {
+  line-height: 30px;
 }
-.result {
-  display: none;
+
+.player-0-panel,
+.player-1-panel {
+  width: 50%;
+  float: left;
+  height: 600px;
+  padding: 100px;
 }
