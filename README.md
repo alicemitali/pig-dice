@@ -38,4 +38,6 @@ _This web application allows two players to play a game of Pig Dice._
 
 ### License
 
-MIT license Copyright(©) 2018 Beninka Mitali Alice
+_This software is licensed under the MIT license._
+
+Copyright (c) 2019 ** Beninka Mitali Alice **
