@@ -19,9 +19,14 @@ _This web application allows two players to play a game of Pig Dice._
 | Repeat for Player 2                                                              |                    Roll = 1                     | Round total = 0 / Total score = 0 / Player 1 begins |
 | When a player's total score reaches 100 or more, game ends and winner page shows |           Player 1 total score = 100            |                                         Winner page |
 
-##### Setup/Installation Requirements
+## Setup/Installation Requirements
 
-link:https://github.com/alicemitali/board.git
+- _Clone this repository_
+- _Open a HTML file_
+- _Open web browser of choice_
+- _https://github.com/alicemitali/pig-dice.git_
+- https://github.com/alicemitali/pig-dice/index.html
+- alicemitali.github.io/pig-dice
 
 ### BDD
 
