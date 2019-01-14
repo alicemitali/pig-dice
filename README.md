@@ -28,17 +28,13 @@ _This web application allows two players to play a game of Pig Dice._
 - https://github.com/alicemitali/pig-dice/index.html
 - alicemitali.github.io/pig-dice
 
-### BDD
+## Technologies Used
 
-You have to repond all questions and each question has one point then whole quiz is over ten
-
-## Technologies Used:
-
-HTML
-JavaScript
-CSS
-Support and contact details
-If you have some issues using this project,contact me at alicemitali6@gmail.com
+- _HTML_
+- _CSS_
+- _Bootstrap_
+- _JavaScript_
+- _jQuery_
 
 ### License
 
