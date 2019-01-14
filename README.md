@@ -1,8 +1,10 @@
 # PIG-DICE GAME
 
+Monday,14th January 2019
+
 #### Description
 
-This is A project that allows the user to answer questions from a multiple choice questions that I have created. Friday,21st december 2018
+_This web application allows two players to play a game of Pig Dice._
 
 #### By Beninka Mitali Alice
 
